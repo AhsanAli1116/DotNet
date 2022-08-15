@@ -1,0 +1,152 @@
+
+
+body {
+    background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+    color: #514B64;
+    min-height: 100vh;
+    margin: 0%;
+    padding: 0%;
+     overflow-x: hidden; 
+  }
+
+  .navbar
+  {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+  }
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+
+.navbar .nav-link{
+  color:white;
+}
+.nav-content{
+  position: relative;
+  margin-right: 50px;
+}
+
+.carousel-inner{
+  height: 70vh ;
+}
+
+.carousel-item{
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
+.banner
+{
+  background-color:rgb(37, 37, 37); 
+  color: white; 
+  text-align: center; 
+  position: fixed;
+  width: 100vw;
+  
+}
+.in-touch{
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+
+}
+
+.nav .nav-link{
+  color: #27262b;
+}
+.nav-link:hover
+{
+  color: rgba(183,23,44,255);
+
+} 
+.aboutus-img {
+  background-image: url("./assets/aboutus.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 330px;
+  text-align: center;
+  color: white;
+
+}
+
+.layer
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.aboutus-img h1{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.ab-team{
+  /* position: relative; */
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.team-pics{
+
+  margin-left: 130px;
+  margin-right: 130px;
+}
+.card 
+{
+  position: relative;
+  width: 350px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover img {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+.career-section{
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+.career-content h1{
+  color:rgba(183,23,44,255);
+  text-decoration: underline;
+}
+
+.table{
+  width: 40vw;
+}
+#displayform
+{
+  visibility: hidden;
+}
+
+.form-group.required .control-label:after{
+  content:"*";
+  color:red;
+}
